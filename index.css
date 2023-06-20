@@ -8,11 +8,10 @@
 body{
     background: black;
     color: #fff;
-    cursor: none;
+    scroll-behavior: smooth;
+    
 }
-header{
-    position: absolute;
-}
+
   .rounded{
     width: 30px;
     height: 30px;
@@ -44,8 +43,42 @@ header{
     width: 50%;
     margin: auto;
     font-size: 10rem;
+    cursor: none;
 }
-p{
+/* p{
   text-align: center;
   width: 100%;
+} */
+.main-container{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+.grid-section-1{
+  height: 100vh;
+  color: #fff;
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-1-header{
+  font-size: 4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 1em;
+}
+.section-1-para{
+  margin-top: 1em;
+  padding: 0 3em;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: justify;
+  
+}
+.section-2-img{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/truck-smoke.jpg");
 }
