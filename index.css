@@ -45,3 +45,7 @@ header{
     margin: auto;
     font-size: 10rem;
 }
+p{
+  text-align: center;
+  width: 100%;
+}
